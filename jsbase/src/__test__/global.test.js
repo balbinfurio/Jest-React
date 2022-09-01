@@ -5,7 +5,7 @@ test('must contain a string', () => {
   expect(text).toMatch(/World/);
 });
 
-test('do we have an apple', () => {
+test('do we have an apple?', () => {
   expect(fruits).toContain('apple');
 });
 
